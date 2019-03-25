@@ -429,7 +429,7 @@ module.exports = "\n.header-nav li{\n    cursor: pointer;\n    position: relativ
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"header-nav\">\n  <div class=\"nav-wrapper\">\n    <a href=\"#\" class=\"brand-logo right\">ECOMMERCE</a>\n    <ul id=\"nav-mobile\" class=\"left hide-on-med-and-down\">\n      <li><a href=\"/\" >Home</a></li>\n      <li><a href=\"entrar\" >Entrar</a></li>\n      <li><a href=\"cadastro\" >Cadastrar</a></li>\n    </ul>\n  </div>\n</nav>"
+module.exports = "<nav class=\"header-nav\">\n  <div class=\"nav-wrapper\">\n    <a href=\"#\" class=\"brand-logo right\">ECOMMERCE</a>\n    <ul id=\"nav-mobile\" class=\"left hide-on-med-and-down\">\n      <li><a [routerLink]=\"['/']\">Home</a></li>\n      <li><a [routerLink]=\"['entrar']\">Entrar</a></li>\n      <li><a [routerLink]=\"['cadastro']\">Cadastrar</a></li>\n    </ul>\n  </div>\n</nav>"
 
 /***/ }),
 
